@@ -11,7 +11,7 @@ import CoreData
 struct ContentView: View {
   
     var body: some View {
-        //V-107,paso 1.10,traemos el Home de nuestra aplicacion
+        // Paso 1.10,traemos el Home de nuestra aplicacion
         Home()
     }
 }

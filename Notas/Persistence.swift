@@ -7,6 +7,7 @@
 
 import CoreData
 
+// V-106,paso 0.0.Esta configuración es por defecto de CORE DATA
 struct PersistenceController {
     static let shared = PersistenceController()
 
