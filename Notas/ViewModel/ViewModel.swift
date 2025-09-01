@@ -20,6 +20,16 @@ class ViewModel: ObservableObject {
     
     //--------------------------------------Mis funciones ------------------------------------------
     
+    /**
+     
+     📌NSManagedObjectContext
+       Es el intermediario escencial que te permite manipular tus datos de forma segura y eficiente antes de realizar cualquier cambio
+       permanente en la base de datos.Sin un contexto, no puedes crear, editar o guardar objetos de Core Data.
+     📌Context
+       Es un espacio donde puedes crear, leer, actualizar o eliminar objetos antes de guardarlos de forma permanente.
+     
+     */
+    
     // V-108,Paso 2.4,CoreData, Función Para salvar nota.
     func saveData(context: NSManagedObjectContext){
         // Código para guardar, el contexto que traemos como párametro
